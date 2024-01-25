@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Manrope:wght@400;700;800&family=Merriweather:wght@400;700;900&family=Mulish:wght@400;700;800;900&family=Open+Sans:wght@500;800&family=Roboto:wght@400;500;700&family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+    .primary-color{
+        color: #FF4240;
+    }
+    .manrope{
+        font-family: Manrope;
+    }
+    .bg-primary{
+        background-color:#FF4240;
+    }
+    .bg-image1{
+      background-image: url(Images/2.png);
+      background-position: center;
+      height: 330px;
+    }
+    .bg-image2{
+      background-image: url(Images/3.png);
+      background-position: center;
+      height: 330px;
+    }
+    .bg-image3{
+      background-image: url(Images/4.png);
+      background-position: center;
+      height: 330px;
+    }
+</style>
+</head>
+<body class="manrope">
+ <header class="lg:px-40 lg:py-10">
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li class="lg:mx-2 primary-color"><a>Home</a></li>
+              <li class="lg:mx-2"><a>About</a></li>
+              <li class="lg:mx-2"><a>Pages</a></li>
+              <li class="lg:mx-2"><a>Blog</a></li>        
+              <li class="lg:mx-2"><a>Contact</a></li>
+                
+            
+              
+            </ul>
+          </div>
+          <a class="text-4xl">Hockey<span class="primary-color">	&apos;</span>s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex ">
+          <div>
+            <ul class="menu menu-horizontal px-1 ">
+                <li class="lg:mx-2 primary-color"><a>Home</a></li>
+                <li class="lg:mx-2"><a>About</a></li>
+                <li class="lg:mx-2"><a>Pages</a></li>
+                <li class="lg:mx-2"><a>Blog</a></li>        
+                <li class="lg:mx-2"><a>Contact</a></li>
+              </ul>
+          </div>
+         <div class="lg:ml-36">
+            <button class="btn btn-ghost btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+              </button>
+         </div>
+        </div>
+     
+        <div class="navbar-end ">
+            
+         
+          <a class="btn text-white bg-primary">get ticket</a>
+        </div>
+      </div>
+ </header>
+ <main class="lg:px-40 lg:py-10">
+   <section class="first-section">
+    <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+   
+   </section>
+   <section class="second-section">
+    <div class="title flex justify-center my-20">
+     <div>   <h1 class="text-4xl font-extrabold">Professinal Hokey Club</h1>
+      <p class="font-medium">hokey club for hokey player ,best hokey club</p></div>
+    </div>
+    <div class="lg:flex justify-between">
+      <div class=" flex items-center justify-center my-10 flex-col">  <div class="radial-progress text-red-600 -rotate-180 " style="--value:70;" role="progressbar"><span class="-rotate-180">87%</span></div>
+      <h1 class="text-2xl text-semibold text-center my-5">prayer facility</h1>
+      <p class="" >one of the best prayer facilities</p>
+    </div>
+     <div class=" flex items-center justify-center my-10 flex-col"> <div class="radial-progress text-green-400 -rotate-180" style="--value:70;" role="progressbar"><span class="-rotate-180">95%</span></div>
+     <h1 class="text-2xl text-semibold text-center my-5">experience coach</h1>
+     <p class="" >one of the best prayer facilities</p>
+    </div>
+    <div class=" flex items-center justify-center my-10 flex-col"><div class="radial-progress text-yellow-500 -rotate-180" style="--value:70;" role="progressbar"><span class="-rotate-180">90%</span></div>
+    <h1 class="text-2xl text-semibold text-center my-5">senior player</h1>
+      <p class="" >one of the best prayer facilities</p>
+  </div>
+     <div class=" flex items-center justify-center my-10 flex-col"><div class="radial-progress text-blue-400 -rotate-180" style="--value:70;" role="progressbar"><span class="-rotate-180">80%</span></div>
+     <h1 class="text-2xl text-semibold text-center my-5">training ground</h1>
+     <p class="" >one of the best prayer facilities</p> 
+    </div>
+    </div>
+   </section>
+   <section class="third-section">
+    <div class="text-center my-20">
+       <h1 class="text-4xl font-extrabold">programme section</h1>
+       <p class="my-5">one of the best programme section</p>
+    </div>
+    <div class="lg:flex">
+      <div class="bg-image1 mx-8 grow rounded-sm">
+        <h1 class="mt-20 mb-2 text-white font-extrabold text-2xl mx-5">Junior Program</h1>
+        <p class="text-white font-medium mx-5">traninng club for junior programme</p>
+        <button class="btn bg-primary text-white my-4 mx-5">Register Now!</button>
+      </div>   
+      <div class="bg-image2 mx-8 grow rounded-sm">
+        <h1 class="mt-20 mb-2 text-white font-extrabold text-2xl mx-5">Tenage Programme</h1>
+        <p class="text-white font-medium mx-5">traninng club for junior programme</p>
+        <button class="btn bg-primary text-white my-4 mx-5">Register Now!</button>
+      </div>
+    </div>
+    <div class="bg-image3 my-20 rounded-sm">
+      <h1 class="pt-40 mb-2 text-white font-extrabold text-2xl mx-5">Proffessional Programme</h1>
+      <p class="text-white font-medium mx-5">traninng club for junior programme</p>
+      <button class="btn bg-primary text-white my-4 mx-5">Register Now!</button>
+    </div>
+   </section>
+ </main>
+</body>
+</html>
